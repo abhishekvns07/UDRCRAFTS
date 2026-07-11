@@ -1,0 +1,5 @@
+node_modules/
+temp_ui/
+shipping-partner-ui.zip
+.env
+.DS_Store
