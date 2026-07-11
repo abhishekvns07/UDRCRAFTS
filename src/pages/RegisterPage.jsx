@@ -60,7 +60,7 @@ function RegisterPage() {
               {/* Documents */}
               <div className="form-group">
                 <label htmlFor="aadhar">Aadhar Number</label>
-                <input type="text" id="aadhar" name="aadhar" className="form-control" placeholder="1234 5678 9012" pattern="\\d{12}" required onChange={handleChange} />
+                <input type="text" id="aadhar" name="aadhar" className="form-control" placeholder="1234 5678 9012" pattern="[0-9]{12}" required onChange={handleChange} />
               </div>
 
               <div className="form-group">
